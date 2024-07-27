@@ -1,0 +1,88 @@
+import 'package:service_app/models/service.dart';
+
+const dummyService = [
+  Service(
+      name: 'Kitchen Cleaning',
+      time: 45,
+      price: 399,
+      rating: 4.3,
+      orders: 27,
+      category: Category.maidServices),
+  Service(
+      name: 'Bathroom Cleaning',
+      time: 50,
+      price: 699,
+      rating: 4.5,
+      orders: 21,
+      category: Category.maidServices),
+  Service(
+      name: 'Floor Cleaning',
+      time: 60,
+      price: 499,
+      rating: 4.6,
+      orders: 25,
+      category: Category.maidServices),
+  Service(
+      name: 'Fan Cleaning',
+      time: 30,
+      price: 299,
+      rating: 4.0,
+      orders: 18,
+      category: Category.maidServices),
+  Service(
+      name: 'Room Cleaning',
+      time: 40,
+      price: 499,
+      rating: 4.7,
+      orders: 30,
+      category: Category.maidServices),
+  Service(
+      name: 'Furniture Cleaning',
+      time: 45,
+      price: 599,
+      rating: 4.8,
+      orders: 32,
+      category: Category.maidServices),
+  Service(
+      name: 'Exterior Cleaning',
+      time: 45,
+      price: 599,
+      rating: 4.3,
+      orders: 27,
+      category: Category.carCleaning),
+  Service(
+      name: 'Interior Cleaning',
+      time: 45,
+      price: 299,
+      rating: 4.3,
+      orders: 27,
+      category: Category.carCleaning),
+  Service(
+      name: 'Underbody Cleaning',
+      time: 45,
+      price: 399,
+      rating: 4.3,
+      orders: 20,
+      category: Category.carCleaning),
+  Service(
+      name: 'Full Cleaning',
+      time: 45,
+      price: 699,
+      rating: 4.3,
+      orders: 32,
+      category: Category.carCleaning),
+  Service(
+      name: 'Carpet Deep Cleaning',
+      time: 60,
+      price: 299,
+      rating: 4.0,
+      orders: 17,
+      category: Category.carpetCleaning),
+  Service(
+      name: 'Full House Cleaning',
+      time: 60,
+      price: 799,
+      rating: 4.7,
+      orders: 32,
+      category: Category.deepCleaning),
+];
